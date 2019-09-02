@@ -5,7 +5,7 @@ from django.shortcuts import render
 import requests
 
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=25aec93abd7c4cfa2ce4c2e908b7db22'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=25aec93abd7c4cfa2ce4c2e908b7db22s'
     city = 'Las Vegas'
     city_weather = requests.get(url.format(city)).json() #request the API data and convert the JSON to Python data types
 
