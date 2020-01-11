@@ -1,2 +1,2 @@
 # weatherApp
- first app created using django mvc
+ Weather app created using django MVT
